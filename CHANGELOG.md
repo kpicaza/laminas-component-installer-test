@@ -1,6 +1,18 @@
 # Changelog
 
-## [0.0.1](https://github.com/kpicaza/laminas-component-installer-test/tree/0.0.1) (2020-09-05)
+## [0.0.2] - 2020-09-05
+
+[0.0.2](https://github.com/kpicaza/laminas-component-installer-test/tree/0.0.2)
+
+[Full Changelog](https://github.com/kpicaza/laminas-component-installer-test/compare/0.0.1...0.0.2)
+
+**Merged pull requests:**
+
+- add changelog [\#4](https://github.com/kpicaza/laminas-component-installer-test/pull/4) ([kpicaza](https://github.com/kpicaza))
+
+## [0.0.1] - 2020-09-05
+
+[0.0.1](https://github.com/kpicaza/laminas-component-installer-test/tree/0.0.1)
 
 [Full Changelog](https://github.com/kpicaza/laminas-component-installer-test/compare/a3c83ca616c3311dd1a8d350825a54a6323c7f74...0.0.1)
 
