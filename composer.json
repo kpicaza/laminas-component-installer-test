@@ -1,0 +1,55 @@
+{
+    "name": "kpicaza/laminas-automatic-release-test",
+    "description": "Laminas automatic release test",
+    "keywords": [
+        "psr-7",
+        "psr-11",
+        "psr-15"
+    ],
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "kpicaza"
+        }
+    ],
+    "require": {
+        "php": "^7.4.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.10.10",
+        "phpro/grumphp": "^0.22.0",
+        "phpunit/phpunit": "^9.3",
+        "infection/infection": "^0.17",
+        "squizlabs/php_codesniffer": "^3.4",
+        "symfony/var-dumper": "^5.1",
+        "vimeo/psalm": "^3.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dummy\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DummyTest\\": "test"
+        }
+    },
+    "scripts": {
+        "check-all": [
+            "@cs-check",
+            "@test",
+            "@psalm"
+        ],
+        "cs-check": "phpcs src --colors",
+        "cs-fix": "phpcbf src --colors",
+        "psalm": "psalm",
+        "test": "phpunit --colors=always"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "class": "Antidot\\Installer\\Plugin"
+    }
+}
