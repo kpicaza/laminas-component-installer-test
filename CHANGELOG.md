@@ -10,27 +10,20 @@
 
 - add changelog [\#4](https://github.com/kpicaza/laminas-component-installer-test/pull/4) ([kpicaza](https://github.com/kpicaza))
 
-## 0.0.4 - TBD
+## 0.0.4 - 2020-09-06
 
-### Added
 
-- Nothing.
+-----
 
-### Changed
+### Release Notes for [0.0.4](https://github.com/kpicaza/laminas-component-installer-test/milestone/4)
 
-- Nothing.
+0.0.x bugfix release (patch)
 
-### Deprecated
+### 0.0.4
 
-- Nothing.
-
-### Removed
-
-- Nothing.
-
-### Fixed
-
-- Nothing.
+- Total issues resolved: **0**
+- Total pull requests resolved: **0**
+- Total contributors: **0**
 
 ## [0.0.1] - 2020-09-05
 
